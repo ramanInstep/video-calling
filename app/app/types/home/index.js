@@ -1,0 +1,3 @@
+export const GET_PRODUCTS_REQUEST = 'meraki/Home/GET_PRODUCTS_REQUEST';
+export const GET_PRODUCTS_SUCCESS = 'meraki/Home/GET_PRODUCTS_SUCCESS';
+export const GET_PRODUCTS_ERROR = 'meraki/Home/GET_PRODUCTS_ERROR';

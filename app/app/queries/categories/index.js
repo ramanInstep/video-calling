@@ -1,0 +1,33 @@
+export function getCategoryList() {
+    return `
+    query{
+      categories{
+        _id
+        title
+        type
+        parent
+        order
+         subCategories{
+          _id
+          title
+          type
+          parent
+          order
+          subCategories{
+            _id
+            title
+            type
+            parent
+            order
+            subCategories{
+              _id
+              title
+              type
+              parent
+              order
+            }
+          }
+        }
+      }
+    }`;
+}
